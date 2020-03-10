@@ -89,12 +89,12 @@ environments {
     production {
         dataSource {
             //For Tomcat
-            jndiName = "java:comp/env/jdbc/IMDBMiddleware"
+            jndiName = "java:comp/env/jdbc/Middleware"
             dialect='org.hibernate.dialect.Oracle10gDialect'
             //For JBoss
-            //jndiName = "java:IMDBMiddleware"
+            //jndiName = "java:Middleware"
             //For WebLogic
-            //jndiName = "IMDBMiddleware"
+            //jndiName = "Middleware"
         }
     }
 }
